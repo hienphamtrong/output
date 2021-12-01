@@ -15,7 +15,7 @@
 
                 <StackPanel Margin="10,0,10,0" Height="740" VerticalAlignment="Top" >
                     <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
-                        <Button Name="btnOpenFile" Click="btnOpenFile_Click">Open file</Button>
+                        <Button Name="btnOpenFile" Click="btnOpenFile_Click">Load Configuration</Button>
                     </WrapPanel>
                     <TextBlock>
                         Configuration Info
@@ -30,7 +30,6 @@
                     </TextBlock>
                     <ListBox x:Name="lbLog" Width="570" Height="200"/>
                     <Button Name="btnRunTest" Width="80" Height="40" HorizontalAlignment="Right" Margin="0,10,10,0" Click="RunTest_Click">RUN</Button>
-
                 </StackPanel>
 
             </TabItem>
